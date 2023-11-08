@@ -52,6 +52,15 @@
 			"version": "latest",
 			"profile": "default"
 		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"GitHub.copilot-labs"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
