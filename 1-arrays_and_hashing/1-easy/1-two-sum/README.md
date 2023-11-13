@@ -42,12 +42,12 @@ https://leetcode.com/problems/two-sum/
 
 > Loop through the array and for each element, loop through the array again and check if the sum of the current element and the element at index `j` is equal to the target, if so, return the indices of the two elements, otherwise, return an empty array.
 
-- Time complexity: O(n^2)
-- Space complexity: O(1)
+- Time complexity: `O(n^2)`
+- Space complexity: `O(1)`
 
 ## Not-so-naive
 
 > Use a hashmap to store the elements of the array as keys and their indices as values, then loop through the array and for each element, check if the difference between the target and the current element is in the hashmap, if so, return the indices of the two elements, otherwise, return an empty array.
 
-- Time complexity: O(n)
-- Space complexity: O(n)
+- Time complexity: `O(n)`
+- Space complexity: `O(n)`

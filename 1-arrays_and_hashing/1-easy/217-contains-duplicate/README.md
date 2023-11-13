@@ -34,19 +34,19 @@ https://leetcode.com/problems/contains-duplicate/
 
 > Check if any element in the array is duplicated by comparing each element with the rest of the array.
 
-- Time complexity: O(n^2)
-- Space complexity: O(1)
+- Time complexity: `O(n^2)`
+- Space complexity: `O(1)`
 
 ## Not-so-naive
 
 > Instantiate a set and loop through the array, adding each element to the set. If the element is already in the set, return true. If the loop finishes, return false.
 
-- Time complexity: O(n)
-- Space complexity: O(n)
+- Time complexity: `O(n)`
+- Space complexity: `O(n)`
 
 ## Fast-code Solution
 
 > Given that set does not have duplicates, instantiate a set based on the array and check if length of the set is different from the length of the array.
 
-- Time complexity: O(n)
-- Space complexity: O(n)
+- Time complexity: `O(n)`
+- Space complexity: `O(n)`
