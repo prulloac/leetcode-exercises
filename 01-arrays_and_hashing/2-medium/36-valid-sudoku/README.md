@@ -50,3 +50,11 @@ Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without
 https://leetcode.com/problems/valid-sudoku/
 
 # Solutions
+
+## Brute Force
+
+Let's start with a brute force solution. We can check each row, column, and sub-box by looping through the board and checking each element. We can use a set to keep track of the numbers we have seen so far. If we see a number that is already in the set, then the board is not valid. Otherwise, we add the number to the set and continue. If we reach the end of the board, then the board is valid.
+
+## Optimized using Sets
+
+We can optimize the brute force solution by using a set for each row, column, and sub-box. We can loop through the board and check each element. If we see a number that is already in the set for the row, column, or sub-box, then the board is not valid. Otherwise, we add the number to the set and continue. If we reach the end of the board, then the board is valid.

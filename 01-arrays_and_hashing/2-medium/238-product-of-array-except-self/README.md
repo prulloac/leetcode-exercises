@@ -26,3 +26,5 @@ You must write an algorithm that runs in `O(n)` time and without using the divis
 https://leetcode.com/problems/product-of-array-except-self/
 
 # Solutions
+
+Loop through the array once using an index `i` and calculate the product of all elements to the left of `i` and store it in `answer[i]`. Then loop through the array again using an index `j` and calculate the product of all elements to the right of `j` and multiply it with `answer[j]` and store it in `answer[j]`.
